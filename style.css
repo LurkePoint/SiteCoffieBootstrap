@@ -6,71 +6,14 @@ body {
     margin: 0;
     font-family: Futura New;
 }
-.content_text {
-    background-color: rgba(255, 255, 255, 0.8);
-    margin: 100px 0px;
-    font-size: 36px;
-    padding: 46px 52px 46px 52px;
-    line-height: 43px;
-    border-radius: 10px;
-}
 h3 {
     font-size: 48px;
     font-weight: 600;
     line-height: 60px;
     margin-bottom: 30px;
 }
-.contentBarista {
-    display: flex;
-    align-items: flex-end;
-    background-repeat: no-repeat;
-    background-position: 70%;
-    background-size: cover;
-    width: 100%;
-    min-height: 100vh;
-}
-.contentSixItems {
-    display: flex;
-    align-items: center;
-    background-repeat: no-repeat;
-    background-position: 70%;
-    background-size: cover;
-    width: 100%;
-    min-height: 100vh;
-}
-.contentSixItems_items {
-    margin: 100px auto;
-}
-.contentSixItems_items .item {
-    margin: 10px 20px 10px 0px;
-    background-color: rgba(255, 255, 255, 0.8);
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 120%;
-    border-radius: 10px;
-    padding: 50px 42px 50px 42px;
-    width: 520px;
-}
-.contentSettings {
-    display: flex;
-    align-items: flex-end;
-    background-repeat: no-repeat;
-    background-position: 70%;
-    background-size: cover;
-    width: 100%;
-    min-height: 100vh;
-}
-.contentTubeless {
-    display: flex;
-    align-items: flex-end;
-    background-repeat: no-repeat;
-    background-position: 70%;
-    background-size: cover;
-    width: 100%;
-    min-height: 100vh;
-}
 .contentCookItems {
-    margin: 20px 0px;
+    margin: 20px 0px 80px 0px;
 }
 .contentCookItems_items {
     display: flex;
@@ -92,26 +35,8 @@ h3 {
     width: 100%;
     height: auto;
 }
-.contentLatteCrema {
-    display: flex;
-    align-items: flex-end;
-    background-repeat: no-repeat;
-    background-position: 70%;
-    background-size: cover;
-    width: 100%;
-    min-height: 100vh;
-}
-.contentDegrees {
-    display: flex;
-    align-items: flex-end;
-    background-repeat: no-repeat;
-    background-position: 70%;
-    background-size: cover;
-    width: 100%;
-    min-height: 100vh;
-}
 .contentCleanItems {
-    margin: 20px 0px;
+    margin: 20px 0px 80px 0px;
 }
 .contentCleanItems_items {
     display: flex;
@@ -138,7 +63,7 @@ h3 {
     align-items: center;
     justify-content: center;
     background-repeat: no-repeat;
-    background-position: 70%;
+    background-position: 50%;
     background-size: cover;
     width: 100%;
     min-height: 100vh;
@@ -155,4 +80,227 @@ h3 {
 .contentVideo_play img{
     display: block;
     width: 20px;
+}
+@media (min-width: 829px) {
+    .foto828 {
+        display: none;
+    }
+    .content_text {
+        background-color: rgba(255, 255, 255, 0.8);
+        margin: 100px 0px;
+        font-size: 36px;
+        padding: 46px 52px 46px 52px;
+        line-height: 43px;
+        border-radius: 10px;
+    }
+    .contentBarista {
+        display: flex;
+        align-items: flex-end;
+        background-repeat: no-repeat;
+        background-position: 70%;
+        background-size: cover;
+        width: 100%;
+        min-height: 100vh;
+    }
+    .contentSixItemsContainer {
+        padding: 0;
+    }
+    .contentSixItems {
+        display: flex;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-position: 70%;
+        background-size: cover;
+        width: 100%;
+        min-height: 100vh;
+    }
+    .contentSixItems_items {
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 100px 0px;
+    }
+    .contentSixItems_items .item {
+        margin: 20px 20px 20px 0px;
+        background-color: rgba(255, 255, 255, 0.8);
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 120%;
+        border-radius: 10px;
+        padding: 50px 42px 50px 42px;
+        width: 520px;
+    }
+    .contentSettings {
+        display: flex;
+        align-items: flex-end;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: cover;
+        width: 100%;
+        min-height: 100vh;
+    }
+    .contentTubeless {
+        display: flex;
+        align-items: flex-end;
+        background-repeat: no-repeat;
+        background-position: 70%;
+        background-size: cover;
+        width: 100%;
+        min-height: 100vh;
+    }
+    .contentLatteCrema {
+        display: flex;
+        align-items: flex-end;
+        background-repeat: no-repeat;
+        background-position: 80%;
+        background-size: cover;
+        width: 100%;
+        min-height: 100vh;
+    }
+    .contentDegrees {
+        display: flex;
+        align-items: flex-end;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: cover;
+        width: 100%;
+        min-height: 100vh;
+    }
+}
+@media (max-width: 828px) {
+    .foto828 {
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+    .content_text {
+        background-color: white;
+        font-size: 36px;
+        padding: 46px 40px 46px 40px;
+        margin: 0;
+        line-height: 43px;
+        width: 100%;
+    }
+    .contentBarista {
+        background-size: 0 0;
+        display: flex;
+        align-items: flex-start;
+    }
+    .contentSixItems {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-position: 70%;
+        background-size: cover;
+        padding: 10px;
+        width: 100%;
+        height: 800px;
+    }
+    .contentSixItemsContainer {
+        height: 100%;
+    }
+    .contentSixItems_items {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+    .contentSixItems_items_row1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contentSixItems_items_row2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contentSixItems_items .item {
+        margin: 10px;
+        background-color: rgba(255, 255, 255, 0.8);
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 120%;
+        border-radius: 10px;
+        padding: 27px 21px 27px 21px;
+        width: 220px;
+        text-align: center;
+    }
+    .contentCookItems {
+        margin: 20px 0px 80px 0px;
+    }
+    .contentCookItems_items {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-width: 100%;
+    }
+    .contentCookItems_text {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 60px;
+        margin: 60px 0px;
+        text-align: center;
+    }
+    .contentCookItems_items img {
+        display: block;
+        object-fit: cover;
+        object-position: 50% 50%;
+        width: 100%;
+        height: auto;
+    }
+    .contentCleanItems {
+        margin: 20px 0px 80px 0px;
+    }
+    .contentCleanItems_items {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-width: 100%;
+    }
+    .contentCleanItems_text {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 60px;
+        margin: 60px 0px;
+        text-align: center;
+    }
+    .contentCleanItems_items img {
+        display: block;
+        object-fit: cover;
+        object-position: 50% 50%;
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 720px) {
+    h3 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 60px;
+        margin-bottom: 30px;
+    }
+    .content_text {
+        background-color: white;
+        font-size: 26px;
+        padding: 46px 20px 46px 20px;
+        margin: 0;
+        line-height: 43px;
+        width: 100%;
+    }
+    .contentCookItems_text {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 60px;
+        margin: 60px 0px;
+        text-align: center;
+    }
+    .contentCleanItems_text {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 60px;
+        margin: 60px 0px;
+        text-align: center;
+    }
 }
