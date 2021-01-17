@@ -186,6 +186,7 @@ h3 {
         background-size: 0 0;
         display: flex;
         align-items: flex-start;
+        height: 100%;
     }
     .contentSixItems {
         display: flex;
@@ -227,6 +228,30 @@ h3 {
         padding: 27px 21px 27px 21px;
         width: 220px;
         text-align: center;
+    }
+    .contentSettings {
+        background-size: 0 0;
+        display: flex;
+        align-items: flex-start;
+        height: 100%;
+    }
+    .contentTubeless {
+        background-size: 0 0;
+        display: flex;
+        align-items: flex-start;
+        height: 100%;
+    }
+    .contentLatteCrema {
+        background-size: 0 0;
+        display: flex;
+        align-items: flex-start;
+        height: 100%;
+    }
+    .contentDegrees {
+        background-size: 0 0;
+        display: flex;
+        align-items: flex-start;
+        height: 100%;
     }
     .contentCookItems {
         margin: 20px 0px 80px 0px;
