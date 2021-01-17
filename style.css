@@ -171,6 +171,7 @@ h3 {
     .foto828 {
         display: block;
         width: 100%;
+        height: auto;
         padding: 0;
     }
     .content_text {
@@ -195,7 +196,7 @@ h3 {
         background-size: cover;
         padding: 10px;
         width: 100%;
-        height: 800px;
+        height: 1000px;
     }
     .contentSixItemsContainer {
         height: 100%;
