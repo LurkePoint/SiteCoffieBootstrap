@@ -172,6 +172,7 @@ h3 {
         display: block;
         width: 100%;
         height: auto;
+        object-fit: cover;
         padding: 0;
     }
     .content_text {
