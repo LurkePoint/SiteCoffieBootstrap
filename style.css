@@ -19,7 +19,7 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-width: 400px;
+    height: 100%;
 }
 .contentCookItems_text {
     font-size: 48px;
@@ -42,7 +42,7 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-width: 400px;
+    height: 100%;
 }
 .contentCleanItems_text {
     font-size: 48px;
@@ -102,33 +102,22 @@ h3 {
         width: 100%;
         min-height: 100vh;
     }
-    .contentSixItemsContainer {
-        padding: 0;
-    }
     .contentSixItems {
-        display: flex;
-        align-items: center;
         background-repeat: no-repeat;
         background-position: 70%;
         background-size: cover;
         width: 100%;
         min-height: 100vh;
     }
-    .contentSixItems_items {
-        padding: 0;
-        display: flex;
-        flex-wrap: wrap;
-        margin: 100px 0px;
-    }
-    .contentSixItems_items .item {
-        margin: 20px 20px 20px 0px;
+    .contentSixItems .item {
+        margin: 10px 0px;
         background-color: rgba(255, 255, 255, 0.8);
         font-size: 48px;
         font-weight: 600;
         line-height: 120%;
         border-radius: 10px;
         padding: 50px 42px 50px 42px;
-        width: 520px;
+        width: 100%;
     }
     .contentSettings {
         display: flex;
@@ -168,12 +157,14 @@ h3 {
     }
 }
 @media (max-width: 828px) {
+    .content_foto {
+        padding: 0;
+    }
     .foto828 {
         display: block;
         width: 100%;
         height: auto;
         object-fit: cover;
-        padding: 0;
     }
     .content_text {
         background-color: white;
@@ -190,36 +181,16 @@ h3 {
         height: 100%;
     }
     .contentSixItems {
-        display: flex;
-        align-items: center;
-        justify-content: center;
         background-repeat: no-repeat;
         background-position: 70%;
         background-size: cover;
-        padding: 10px;
         width: 100%;
+        min-height: 100vh;
+    }
+    .contentSixItems .row {
         height: 1000px;
     }
-    .contentSixItemsContainer {
-        height: 100%;
-    }
-    .contentSixItems_items {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        height: 100%;
-    }
-    .contentSixItems_items_row1 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .contentSixItems_items_row2 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .contentSixItems_items .item {
+    .contentSixItems .item {
         margin: 10px;
         background-color: rgba(255, 255, 255, 0.8);
         font-size: 24px;
@@ -227,8 +198,8 @@ h3 {
         line-height: 120%;
         border-radius: 10px;
         padding: 27px 21px 27px 21px;
-        width: 220px;
         text-align: center;
+        width: 240px;
     }
     .contentSettings {
         background-size: 0 0;
@@ -261,7 +232,6 @@ h3 {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        min-width: 100%;
     }
     .contentCookItems_text {
         font-size: 48px;
@@ -284,7 +254,6 @@ h3 {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        min-width: 100%;
     }
     .contentCleanItems_text {
         font-size: 48px;
